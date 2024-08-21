@@ -33,6 +33,9 @@ importers:
       '@biomejs/biome':
         specifier: 1.8.3
         version: 1.8.3
+      '@faker-js/faker':
+        specifier: ^8.4.1
+        version: 8.4.1
       '@nestjs/cli':
         specifier: ^10.0.0
         version: 10.4.4(@swc/cli@0.4.0(@swc/core@1.7.11)(chokidar@3.6.0))(@swc/core@1.7.11)
@@ -335,6 +338,10 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@faker-js/faker@8.4.1':
+    resolution: {integrity: sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -2785,6 +2792,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@faker-js/faker@8.4.1': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
