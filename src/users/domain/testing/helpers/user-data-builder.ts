@@ -1,5 +1,5 @@
-import { UserProps } from '@/users/domain/entities/user.entity';
 import { faker } from '@faker-js/faker';
+import { UserProps } from '../../entities/user.entity';
 
 type Props = Partial<UserProps>;
 
